@@ -27,7 +27,14 @@ pip install ipykernel
 python -m ipykernel install --user --name=ras_tf_lite
 </pre>
 <br/>
-<b>Step 5.</b> Run streamlit on localhost by running the stream.py file via terminal command (You can select an optional port)
+<b>Step 5.</b> Fix rtsp link
+<pre>
+rtsp://{user}:{password}@{ip_address}/:{port}/Streaming/channels/2/
+  
+example: rtsp://admin:AEZAKMI12@192.168.0.161/:554/Streaming/channels/2/
+</pre>
+
+<b>Step 6.</b> Run streamlit on localhost by running the stream.py file via terminal command (You can select an optional port)
 <pre>
 streamlit run tflite_camera.py --server.port 8520
 </pre>
