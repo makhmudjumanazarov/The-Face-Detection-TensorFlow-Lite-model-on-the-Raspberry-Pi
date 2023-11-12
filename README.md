@@ -5,10 +5,10 @@ I built a model for Face Detection using YOLOv8. First I exported the YOLOv8 mod
 - Pytorch -> ONNX -> Tensorflow -> Tensorflow Lite Conversion :  <a href= "https://github.com/makhmudjumanazarov/YOLOv8-convert-ONNX-Tensorflow-TFLite-and-ONNX-TensorRT"> repo </a>
 
 ### Steps to Use
-<br />
-<b>Step 1.</b> Clone <a href= "https://github.com/makhmudjumanazarov/TensorRT-Deploy-via-ngrok-with-streamlit-for-face-detecion.git">this repository </a>
-via Terminal
-<br/><br/>
+<b>Step 1.</b> Clone a repo
+<pre>
+git clone https://github.com/makhmudjumanazarov/The-Face-Detection-TensorFlow-Lite-model-on-the-Raspberry-Pi.git
+</pre> 
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
 python -m venv TensorRT
