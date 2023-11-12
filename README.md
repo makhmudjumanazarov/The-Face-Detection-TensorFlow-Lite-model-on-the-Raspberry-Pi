@@ -37,3 +37,5 @@ example: rtsp://admin:AEZAKMI12@192.168.0.161/:554/Streaming/channels/2/
 <pre>
 streamlit run tflite_camera.py --server.port 8520
 </pre>
+
+![Result](test.jpg)
