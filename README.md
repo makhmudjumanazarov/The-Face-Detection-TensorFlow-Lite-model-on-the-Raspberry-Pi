@@ -11,12 +11,12 @@ git clone https://github.com/makhmudjumanazarov/The-Face-Detection-TensorFlow-Li
 </pre> 
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
-python -m venv TensorRT
+python -m venv ras_tf_lite
 </pre> 
 <br/>
 <b>Step 3.</b> Activate your virtual environment
 <pre>
-source TensorRT/bin/activate # Linux
+source ras_tf_lite/bin/activate # Linux/Debian
 </pre>
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
@@ -24,12 +24,12 @@ source TensorRT/bin/activate # Linux
 python -m pip install --upgrade pip
 pip install -r requirements.txt 
 pip install ipykernel
-python -m ipykernel install --user --name=TensorRT
+python -m ipykernel install --user --name=ras_tf_lite
 </pre>
 <br/>
 <b>Step 5.</b> Run streamlit on localhost by running the stream.py file via terminal command (You can select an optional port)
 <pre>
-streamlit run stream.py --server.port 8520
+streamlit run tflite_camera.py --server.port 8520
 </pre>
 
 <br/>
