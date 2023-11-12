@@ -1,10 +1,8 @@
 ## The Face Detection TensorFlow Lite model on the Raspberry-Pi
 ## Important
 I built a model for Face Detection using YOLOv8. First I exported the YOLOv8 model -> ONNX -> Tensorflow -> Tensorflow Lite. As a result, when i predicted the video through the Tensorflow Lite model, the FPS went up to (5~6) and deployed via streamlit on the Raspberry-Pi.
-- Trained YOLOv8 model for Face Detection: <a href= "https://drive.google.com/file/d/17BhPnTdBkKJH7UF6qD5dSp6E0Ag7dqFg/view?usp=sharing"> face.pt </a>
-- ONNX model: <a href= "https://drive.google.com/file/d/1TR48GOOgYUzMM1fgF_B6ooao5zdE0xpC/view?usp=sharing"> face.onnx </a>
-- TensorRT  model: <a href= "https://drive.google.com/file/d/1bL9nGekteTBkzy0Ocff0E8JZHMhW36vo/view?usp=sharing"> face_detect.engine </a>
-- Code to convert YOLOv8 model to ONNX format:  <a href= "https://github.com/makhmudjumanazarov/TensorRT-Deploy-via-ngrok-with-streamlit-for-face-detecion/blob/main/pytorch_convert_onnx.py"> pytorch_convert_onnx.py </a>
+- Trained YOLOv8 model for Face Detection: <a href= "https://drive.google.com/file/d/11t3sReQt1xrl7n0Mqo5we865azARmGiT/view?usp=sharing"> face.pt </a>
+- Pytorch -> ONNX -> Tensorflow -> Tensorflow Lite Conversion :  <a href= "https://github.com/makhmudjumanazarov/YOLOv8-convert-ONNX-Tensorflow-TFLite-and-ONNX-TensorRT"> repo </a>
 
 ### Steps to Use
 <br />
