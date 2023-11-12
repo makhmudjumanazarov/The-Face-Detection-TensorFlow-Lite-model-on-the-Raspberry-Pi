@@ -31,17 +31,3 @@ python -m ipykernel install --user --name=ras_tf_lite
 <pre>
 streamlit run tflite_camera.py --server.port 8520
 </pre>
-
-<br/>
-<b>Step 6.</b> Open another page in the terminal (it should be the same as the path above). 
-<pre>
-  - Sign up: https://ngrok.com/
-  - Connect your account: 
-                        1. ngrok config add-authtoken your token
-                        2. ngrok http 8520     
-                        
-</pre>
-<br/>
-
-
-
