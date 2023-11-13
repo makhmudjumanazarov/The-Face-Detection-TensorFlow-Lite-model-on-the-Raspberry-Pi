@@ -16,7 +16,7 @@ python -m venv ras_tf_lite
 <br/>
 <b>Step 3.</b> Activate your virtual environment
 <pre>
-source ras_tf_lite/bin/activate # Linux/Debian
+source ras_tf_lite/bin/activate # Linux
 </pre>
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
